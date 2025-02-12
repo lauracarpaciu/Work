@@ -67,6 +67,10 @@ Lastly, you can modify the model parameters to observe the effects on model perf
 <br>
 <br>
 
+I use Tensorflow Serving as  deployment framework.
+
+The serving folder in your workspace to contain the models.
+
 !docker run -t --rm -d -p 8501:8501 -v "d:\Mirela\Visual Studio Code\Work\serving:/models/newsapp_model" -e MODEL_NAME=newsapp_model tensorflow/serving
 
 
