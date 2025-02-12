@@ -1,5 +1,5 @@
 <a id='The Machine Learning Project Lifecycle'></a>
-## The Machine Learning Project Lifecycle
+## Scoping
 
 In this project, I'll use an existing prototype to identify ways to improve the system's performance iteratively. 
 I'll implement some of the key techniques, like establishing a baseline or ensuring a balanced train/dev/test split and performing error analysis to prioritize what to work on. 
