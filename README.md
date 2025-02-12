@@ -38,3 +38,8 @@ The percentage of each class is not the same between the train and test sets.
 Because of this imbalance, the learning algorithm might not find a lot of patterns for the science-related titles and will likely underperform compared to the rest of the topics.
 One strategy is a better balance between the topics is to recombine the train and test sets into one pool, then split them again in a more balanced way.
 
+<a id='Modeling'></a>
+## Modeling
+
+In the Modeling stage, I selected a model to learn from the data. You will evaluate its performance and perform error analysis to know how it can be improved. 
+
