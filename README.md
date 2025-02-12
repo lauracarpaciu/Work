@@ -17,4 +17,15 @@ Finally, I'll deploy the model using Tensorflow Serving. 
 In **data-centric AI development**, the quality of the data is paramount. I will hold the model code fixed and iteratively improving the data to achieve better model performance.
 To convert the string titles to numeric features, I'll need to tokenize them and generate integer sequences for each title. This can be done with a [TextVectorization()](https://www.tensorflow.org/api_docs/python/tf/keras/layers/TextVectorization) layer that uses the `vocabulary.txt` file in `vocab_d`. 
 <center><img src='assets/2025-02-12_084926.png' alt='2025-02-12_084926.png'></center>
+<br>
+<br>
+
+I get the evaluation metrics by running the code below.
+# Convert the test dataframe to a tf dataset
+test_ds = lab_utils.df_to_tfdata(test_df, topic_lookup, title_preprocessor)
+# Get the metrics
+model.evaluate(test_ds)
+763/763 [==============================] - 1s 990us/step - loss: 1.0202 - sparse_categorical_accuracy: 0.7778
+[1.0201756954193115, 0.7778187394142151]
+SparseCategoricalAccuracy() measures how often the predictions match integer labels. As shown above, the current model has 78% accuracy across all rows in the test dataset. 
 
