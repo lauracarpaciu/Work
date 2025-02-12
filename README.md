@@ -40,9 +40,7 @@ One strategy is a better balance between the topics is to recombine the train an
 
 <a id='Modeling'></a>
 ## Modeling
-
 In the Modeling stage, I selected a model to learn from the data. You will evaluate its performance and perform error analysis to know how it can be improved. 
-
 ### Select and train the model
 <br>
 <br>
