@@ -40,6 +40,7 @@ One strategy is a better balance between the topics is to recombine the train an
 
 <a id='Modeling'></a>
 ## Modeling
+<br>
 In the Modeling stage, I selected a model to learn from the data. You will evaluate its performance and perform error analysis to know how it can be improved. 
 ### Select and train the model
 <br>
@@ -47,6 +48,7 @@ For data-centric AI development, I do a quick analysis of the prototype model wi
 ## Adding data
 There are some techniques for augmenting text data that you can try on your dataset (such as synonym replacement, random insertion, random swap, and random deletion). Just remember to only augment the training set, and not the dev and test sets.
 ### Modify the Model Parameters
+<br>
 Lastly, you can modify the model parameters to observe the effects on model performance. Below you will find the code to build the prototype model. You can try adding more layers or just modifying the dimensionality of the embedding and dense layers. 
 
 
