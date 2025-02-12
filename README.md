@@ -43,7 +43,6 @@ One strategy is a better balance between the topics is to recombine the train an
 In the Modeling stage, I selected a model to learn from the data. You will evaluate its performance and perform error analysis to know how it can be improved. 
 ### Select and train the model
 <br>
-<br>
 For data-centric AI development, I do a quick analysis of the prototype model with the improved dataset before making changes to the model. I use the same model architecture and feed in the datasets I generated above. 
 
 
