@@ -14,7 +14,7 @@ Finally, I'll deploy the model using Tensorflow Serving. 
 * **Monitor and Maintain System**
 <center><img src='assets/pasted image 0.png' alt='pasted image 0.png'></center>
 
-In **data-centric AI development**, the quality of the data is paramount. I will hold the model code fixed and iteratively improving the data to achieve better model performance.
+In **data-centric AI development**, the quality of the data is is vital. I will hold the model code fixed and iteratively improving the data to achieve better model performance.
 To convert the string titles to numeric features, I'll need to tokenize them and generate integer sequences for each title. This can be done with a [TextVectorization()](https://www.tensorflow.org/api_docs/python/tf/keras/layers/TextVectorization) layer that uses the `vocabulary.txt` file in `vocab_d`. 
 <center><img src='assets/2025-02-12_084926.png' alt='2025-02-12_084926.png'></center>
 <br>
