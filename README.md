@@ -73,6 +73,10 @@ Lastly, you can modify the model parameters to observe the effects on model perf
 
 Having a way to serve different versions of the model can be useful for easy roll back (blue green deployment) or if you want to gradually switch to a newer version (canary deployment). For TF Serving, this is done through a `model_config_file`. 
 
+### Monitor and Maintain System
+
+Deploying an ML system is not the end of a project. Over time, its performance will degrade as gradual change or sudden shock makes the incoming data less like those that the model was trained on. One problem is concept drift where the relationship between the inputs and outputs change.  Another is data drift where the input distribution changes.
+
 
 
 
