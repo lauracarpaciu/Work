@@ -67,11 +67,12 @@ Lastly, you can modify the model parameters to observe the effects on model perf
 <br>
 <br>
 
-I use Tensorflow Serving as  deployment framework.
+### Deployment Patterns
 
-The serving folder in the workspace to contain the models.I use Docker
+#### Blue Green Deployment and Canary Deployment
 
-!docker run -t --rm -d -p 8501:8501 -v "d:\Mirela\Visual Studio Code\Work\serving:/models/newsapp_model" -e MODEL_NAME=newsapp_model tensorflow/serving
+Having a way to serve different versions of the model can be useful for easy roll back (blue green deployment) or if you want to gradually switch to a newer version (canary deployment). For TF Serving, this is done through a `model_config_file`. 
+
 
 
 
