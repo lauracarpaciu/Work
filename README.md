@@ -31,3 +31,10 @@ model.evaluate(test_ds)
 <br>
 SparseCategoricalAccuracy() measures how often the predictions match integer labels. As shown above, the current model has 78% accuracy across all rows in the test dataset. 
 
+#### Create a balanced train/dev/test split
+
+I looked at is the data splits.
+The percentage of each class is not the same between the train and test sets.
+Because of this imbalance, the learning algorithm might not find a lot of patterns for the science-related titles and will likely underperform compared to the rest of the topics.
+One strategy is a better balance between the topics is to recombine the train and test sets into one pool, then split them again in a more balanced way.
+
