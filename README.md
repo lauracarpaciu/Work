@@ -82,9 +82,9 @@ When your model goes live in production, you will want to know as early as possi
 
 * **Software metrics - These refer to the capacity of the platform to deliver your prediction service. It includes measuring available memory and compute resources, latency, throughput, and server load. 
 
-* **Input metrics - These refer to the characteristics of the incoming data. You can use these to detect if your input distribution is changing or if there are edge cases that you might have not considered. In your news classifier, some metrics you can consider are: average input length, number of unknown tokens, out-of-vocabulary words, number of requests from each source, etc.
+* **Input metrics - These refer to the characteristics of the incoming data. You can use these to detect if your input distribution is changing or if there are edge cases that you might have not considered.
 
-* **Output metrics - These refer to the results of the model predictions. Some examples are: average number of predictions per news category, ratio of automated to manual predictions, average probability per prediction, etc.
+* **Output metrics - These refer to the results of the model predictions.
 
 
 
