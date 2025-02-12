@@ -13,3 +13,5 @@ Finally, I'll deploy the model using Tensorflow Serving. 
 * **Deploy in Production**
 * **Monitor and Maintain System**
 <center><img src='assets/pasted image 0.png' alt='pasted image 0.png'></center>
+
+In **data-centric AI development**, the quality of the data is paramount. I will hold the model code fixed and iteratively improving the data to achieve better model performance.
