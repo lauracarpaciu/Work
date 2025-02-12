@@ -77,6 +77,15 @@ Having a way to serve different versions of the model can be useful for easy rol
 
 Deploying an ML system is not the end of a project. Over time, its performance will degrade as gradual change or sudden shock makes the incoming data less like those that the model was trained on. One problem is concept drift where the relationship between the inputs and outputs change.  Another is data drift where the input distribution changes.
 
+Metrics and Alarms
+When your model goes live in production, you will want to know as early as possible if there's a problem. 
+
+Software metrics - These refer to the capacity of the platform to deliver your prediction service. It includes measuring available memory and compute resources, latency, throughput, and server load. 
+
+Input metrics - These refer to the characteristics of the incoming data. You can use these to detect if your input distribution is changing or if there are edge cases that you might have not considered. In your news classifier, some metrics you can consider are: average input length, number of unknown tokens, out-of-vocabulary words, number of requests from each source, etc.
+
+Output metrics - These refer to the results of the model predictions. Some examples are: average number of predictions per news category, ratio of automated to manual predictions, average probability per prediction, etc.
+
 
 
 
