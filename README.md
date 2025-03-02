@@ -1,4 +1,6 @@
 <a id='The Machine Learning Project Lifecycle'></a>
+<br>
+<be>
 
 <a id='Case study'></a>
 ## Case study
