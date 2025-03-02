@@ -29,17 +29,25 @@ To convert the string titles to numeric features, I'll need to tokenize them and
 <center><img src='assets/2025-02-12_084926.png' alt='2025-02-12_084926.png'></center>
 <br>
 <br>
+
 <a id='Utility functions'></a>
 ## Utility functions
 <br>
 <br>
 df_to_tfdata - Converts a pandas dataframe to a tf.data.Dataset
+
 model_reset_weights - Resets the model with random weights
+
 get_errors - Prints error predictions for a given a news topic
+
 save_data
+
 save_vocab
+
 save_labels
+
 set_experiment_dirs
+
 print_metric_per_topic - Prints the accuracy per class of news topics
 
 I get the evaluation metrics by running the code below.
