@@ -67,7 +67,7 @@ One strategy is a better balance between the topics is to recombine the train an
 ## Modeling
 <br>
 <br>
-In the Modeling stage, I selected a model to learn from the data. You will evaluate its performance and perform error analysis to know how it can be improved. 
+In the Modeling stage, I selected a model to learn from the data. I will evaluate its performance and perform error analysis to know how it can be improved. 
 
 <a id='Select and train the model'></a>
 ## Select and train the model
