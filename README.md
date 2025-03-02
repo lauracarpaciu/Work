@@ -90,7 +90,8 @@ There are some techniques for augmenting text data that you can try on your data
 ## Modify the Model Parameters
 <br>
 <br>
-Lastly, you can modify the model parameters to observe the effects on model performance. Below you will find the code to build the prototype model. You can try adding more layers or just modifying the dimensionality of the embedding and dense layers. 
+Lastly, you can modify the model parameters to observe the effects on model performance. Below you will find the code to build the prototype model. You can try adding more layers or just modifying the dimensionality of the embedding and dense layers.
+I used the experiment-tracker.csv  that tracks important metrics and points to relevant directories.
 
 <a id='Deploy in Production'></a>
 ## Deploy in Production
