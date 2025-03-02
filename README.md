@@ -2,6 +2,7 @@
 ## The Machine Learning Project Lifecycle
 <br>
 <br>
+
 <a id='Case study'></a>
 ## Case study
 <br>
