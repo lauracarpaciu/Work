@@ -79,7 +79,7 @@ For data-centric AI development, I do a quick analysis of the prototype model wi
 ## Adding data
 <br>
 <br>
-There are some techniques for augmenting text data that you can try on your dataset (such as synonym replacement, random insertion, random swap, and random deletion). Just remember to only augment the training set, and not the dev and test sets.
+There are some techniques for augmenting text data (such as synonym replacement, random insertion, random swap, and random deletion).
 
 <a id='Modify the Model Parameters'></a>
 ## Modify the Model Parameters
