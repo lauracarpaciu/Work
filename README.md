@@ -1,4 +1,11 @@
 <a id='The Machine Learning Project Lifecycle'></a>
+
+<a id='Case study'></a>
+## Case study
+<br>
+<br>
+A news-related application wants to classify news articles collected from several sources
+
 ## Scoping
 
 In this project, I'll use an existing prototype to identify ways to improve the system's performance iteratively. 
