@@ -34,11 +34,11 @@ To convert the string titles to numeric features, I'll need to tokenize them and
 <br>
 <br>
 Utility functions that I used: 
-df_to_tfdata - Converts a pandas dataframe to a tf.data.Dataset
+**df_to_tfdata - Converts a pandas dataframe to a tf.data.Dataset
 
-model_reset_weights - Resets the model with random weights
+**model_reset_weights - Resets the model with random weights
 
-get_errors - Prints error predictions for a given a news topic
+**get_errors - Prints error predictions for a given a news topic
 
 save_data
 
@@ -48,7 +48,7 @@ save_labels
 
 set_experiment_dirs
 
-print_metric_per_topic - Prints the accuracy per class of news topics
+**print_metric_per_topic - Prints the accuracy per class of news topics
 
 I get the evaluation metrics by running the code below.
 ## Convert the test dataframe to a tf dataset
