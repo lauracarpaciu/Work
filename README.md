@@ -85,7 +85,7 @@ There are some techniques for augmenting text data (such as synonym replacement,
 ## Modify the Model Parameters
 <br>
 <br>
-You can modify the model parameters to observe the effects on model performance.
+Modifying the model parameters to observe the effects on model performance.
 Adding more layers or just modifying the dimensionality of the embedding and dense layers.
 I used the experiment-tracker.csv  that tracks important metrics and points to relevant directories.
 
