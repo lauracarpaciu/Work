@@ -34,7 +34,8 @@ To convert the string titles to numeric features, I'll need to tokenize them and
 <br>
 <br>
 Utility functions that I used: 
-**df_to_tfdata - Converts a pandas dataframe to a tf.data.Dataset
+
+* **df_to_tfdata - Converts a pandas dataframe to a tf.data.Dataset
 
 **model_reset_weights - Resets the model with random weights
 
