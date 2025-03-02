@@ -100,10 +100,7 @@ I used the experiment-tracker.csv  that tracks important metrics and points to r
 
 ### Deployment Patterns
 
-#### Blue Green Deployment and Canary Deployment
-
-Having a way to serve different versions of the model can be useful for easy roll back (blue green deployment) or if you want to gradually switch to a newer version (canary deployment). For TF Serving, this is done through a `model_config_file`. 
- Model_config file and the models are present in the folder SERVING
+Having a way to serve different versions of the model can be useful for easy roll back (blue green deployment) or to gradually switch to a newer version (canary deployment). For TF Serving, this is done through a `model_config_file`. Model_config file and the models are present in the folder SERVING
 
 ### Monitor and Maintain System
 
