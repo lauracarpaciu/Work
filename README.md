@@ -11,7 +11,7 @@ A news-related application wants to classify news articles collected from severa
 
 ## Scoping
 
-    In this project, I'll use an existing prototype to identify ways to improve the system's performance iteratively, establishing a baseline or ensuring a balanced train/dev/test split and performing error analysis to prioritize what to work on. 
+In this project, I'll use an existing prototype to identify ways to improve the system's performance iteratively, establishing a baseline or ensuring a balanced train/dev/test split and performing error analysis to prioritize what to work on. 
 I'll also track experiments(with experiment-tracker.csv), including metrics so I can monitor  progress in improving the model. 
 Finally, I'll deploy the model using Tensorflow Serving. 
 
