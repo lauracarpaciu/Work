@@ -111,9 +111,10 @@ When your model goes live in production, you will want to know as early as possi
 
 * **Output metrics - These refer to the results of the model predictions.
 
-
-
   ![Untitled](https://github.com/user-attachments/assets/20fd04a9-6420-4a1a-896a-bcf817d841a4)
+
+
+  There is a spike in the later entries. 
 
 
 
